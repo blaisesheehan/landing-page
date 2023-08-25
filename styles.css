@@ -71,7 +71,10 @@ button {
     display:flex;
 }
 
-
+.section-two {
+    display:flex;
+    flex-direction: column;
+}
 
 .s2-one {
     display:flex;
@@ -81,4 +84,11 @@ button {
 
 .s2-two {
     display:flex;
+    justify-content: center;
+}
+
+.s2-three {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
